@@ -10,6 +10,40 @@
     <div id="printableArea">
       <h1>Print me</h1>
       <p>hello world</p>
+      <table ref={printAbleArea}>
+        <thead className="">
+          <tr className="border-2 border-black">
+            <th className="" colSpan={2}>
+              User info
+            </th>
+            <th className="" colSpan={2}>
+              User data
+            </th>
+          </tr>
+          <tr className="border-2 border-black ">
+            <th className="py-2 px-3 text-center border-r-2 border-black">
+              Name
+            </th>
+            <th className="py-2 px-3 text-center border-r-2 border-black">
+              Address
+            </th>
+            <th className="py-2 px-3 text-center border-r-2 border-black">
+              Email
+            </th>
+          </tr>
+        </thead>
+
+        <tbody className="border-2 border-black">
+          <tr className="">
+            <td className="py-2 px-3 border-r-2 border-black">Fahim</td>
+            <td className="py-2 px-3 border-r-2 border-black">
+              Brahmanbaria, Bangladesh
+            </td>
+            <td className="py-2 px-3 border-r-2 border-black">fahim@gmial</td>
+            <td className="py-2 px-3 border-r-2 border-black">fahim@gmial</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <input
